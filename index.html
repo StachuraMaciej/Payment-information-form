@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PAJPayment section</title>
+    <link rel="stylesheet" type="text/css" href="src/global-styles/style.css" />
+  </head>
+
+
+
+  <body>
+    <div class="home-page">
+    <div class="home-page__payment-section">
+      
+        <img class="home-page__payment-section__logo"
+          src="public/images/logo.png"
+         
+          alt="PayTo logo"
+        />
+        <h1 class="home-page__payment-section__title">Add your </br>informations</h1>
+
+         <form class="home-page__payment-section__data">
+           <div class="home-page__payment-section__data__form-group">
+              <label for="name-on-card">Name on card</label>
+              <input type="text" id="name-on-card" name="name-on-card">
+           </div>
+
+           <div class="home-page__payment-section__data__form-group">
+             <label for="card-number">Card number</label>
+             <input type="text" id="card-number" name="card-number">
+           </div>
+
+          <div class="home-page__payment-section__data__form-group-inline">
+             <label for="expiry-date">Expiry&nbsp;date&nbsp;[MM/YY]</label>
+             <input type="text" id="expiry-date" name="expiry-date">
+
+             <label for="cvv">CVV</label>
+            <input type="text" id="cvv" name="cvv">
+          </div>
+       
+        <div class="home-page__payment-section__data__btn-next">
+          <button id="counter" type="button">Next step</button>
+        </div>
+         </form>
+      </div>
+       <div class="home-page__banner">
+        <img class=""
+          src="public/images/baner_visa.png"
+         
+          alt="Baner Visa"
+        />
+</div> 
+</div>
+    <script type="module" src=""></script>
+   
+  </body>
+</html>

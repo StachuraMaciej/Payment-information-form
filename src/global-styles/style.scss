@@ -1,0 +1,137 @@
+/// Main Styles File
+/// Here we import all the global Styles files we need for our project.
+
+@import "styles/normalize.scss";
+@import "styles/root.scss";
+@import "styles/fonts.scss";
+
+body {
+  font-family: "Montserrat";
+  color: var(--color-primary);
+}
+.home-page {
+  display: flex;
+  max-height: auto;
+  max-width: 1440px;
+
+  &__payment-section {
+    flex: 1;
+    height: auto;
+    width: auto;
+    margin-right: 58px;
+
+    & &__logo {
+      height: 20px;
+      width: auto;
+      margin: 64px 0 0 64px;
+      padding: 0;
+    }
+    & &__title {
+      font-family: Montserrat;
+      font-size: 40px;
+      font-weight: 600;
+      line-height: 110%; /* 44px */
+      letter-spacing: -1.2px;
+      margin: 110.75px 0 0 64px;
+      color: var(--color-primary);
+    }
+
+    & &__data {
+      margin: 48px 0 0 64px;
+      height: 284px;
+      width: 440px;
+
+      &__form-group {
+        margin-bottom: 14px;
+        display: block;
+
+        label {
+          font-size: 12px;
+          font-style: normal;
+          font-weight: 300;
+          line-height: 100%; /* 12px */
+          letter-spacing: -0.36px;
+          color: var(--color-label);
+          font-weight: 400;
+        }
+        input {
+          width: 83px;
+          height: 32px;
+          padding: 12px 333px 12px 24px;
+          flex-direction: column;
+          justify-content: center;
+          align-items: flex-start;
+          gap: 4px;
+          border-radius: 18px;
+          border: 1px solid #dadfe9;
+        }
+      }
+
+      &__form-group-inline {
+        margin-bottom: 20px;
+        display: inline-flex;
+        label {
+          font-size: 12px;
+          font-style: normal;
+          font-weight: 300;
+          line-height: 100%; /* 12px */
+          letter-spacing: -0.36px;
+          color: var(--color-label);
+          font-weight: 400;
+          width: 100px;
+          z-index: 1;
+        }
+        input,
+        #expiry-date {
+          margin: 0 14px 0 -100px;
+          height: 32px;
+          width: 117px;
+          margin-right: 10px;
+          padding: 12px 120px 12px 24px;
+          border-radius: 18px;
+          border: 1px solid #dadfe9;
+        }
+
+        input,
+        #cvv {
+          margin: 0 14px 0 -97px;
+          height: 32px;
+          width: 25px;
+          margin-right: 0px;
+          padding: 12px 116px 12px 24px;
+          border-radius: 18px;
+          border: 1px solid #dadfe9;
+        }
+      }
+
+      &__btn-next {
+        display: flex;
+        #counter {
+          width: 440px;
+          padding: 20px 40px;
+          justify-content: center;
+          align-items: center;
+          gap: 10px;
+          border-radius: 18px;
+          border: none;
+          background-color: var(--color-secondary);
+          color: var(--font-color);
+          font-style: normal;
+          font-weight: 400;
+          line-height: 100%; /* 16px */
+          letter-spacing: -0.48px;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+
+  &__banner {
+    flex: 3;
+    width: 100%;
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+}
