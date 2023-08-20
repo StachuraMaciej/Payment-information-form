@@ -462,7 +462,7 @@ body {
     display: grid;
     width: auto;
     place-items: center;
-    height: auto;
+    height: 100vh;
   }
   .home-page__payment-section .home-page__payment-section__logo-Desktop {
     display: none;
@@ -488,7 +488,7 @@ body {
     text-align: center;
   }
   .home-page__payment-section .home-page__payment-section__data {
-    margin: 48px 197px 0px 197px;
+    margin: 48px 197px 100px 197px;
     height: 284px;
     width: 440px;
   }
