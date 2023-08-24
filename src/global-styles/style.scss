@@ -303,14 +303,12 @@ body {
   //For Mobile
   @media screen and (max-width: 376px) {
     &__payment-section {
-      display: grid;
+      display: block;
       width: auto;
-      place-items: center;
       height: 100vh;
 
       & &__logo-Desktop {
         display: none;
-        align-items: center;
         height: 20px;
         width: auto;
         margin: 64px 0 0 64px;
@@ -318,8 +316,6 @@ body {
       }
       & &__logo-Tablet {
         display: block;
-
-        align-items: center;
         margin: 0;
         img {
           width: 375px;
@@ -333,7 +329,7 @@ body {
         font-weight: 600;
         line-height: 110%; /* 44px */
         letter-spacing: -1.2px;
-        margin: 90px 0 0 0px;
+        margin: 32px 0px 0px 16px;
         color: var(--color-primary);
         text-align: left;
       }
@@ -366,8 +362,8 @@ body {
             font-weight: 500;
             line-height: 100%; /* 16px */
             letter-spacing: -0.48px;
-            width: 416px;
-            height: 18px;
+            width: 318px;
+            height: 17px;
             padding: 26px 0px 12px 24px;
             flex-direction: column;
             justify-content: center;
@@ -403,8 +399,8 @@ body {
             line-height: 100%; /* 16px */
             letter-spacing: -0.48px;
             margin: 0 14px 0 -100px;
-            height: 20px;
-            width: 117px;
+            height: 17px;
+            width: 64px;
             margin-right: 10px;
             padding: 26px 120px 12px 23px;
             border-radius: 18px;
@@ -414,10 +410,10 @@ body {
           input,
           #cvv {
             margin: 0 14px 0 -97px;
-            height: 20px;
+            height: 17px;
             width: 30px;
             margin-right: 0px;
-            padding: 26px 116px 12px 19px;
+            padding: 26px 70px 12px 19px;
             border-radius: 18px;
             border: 1px solid #dadfe9;
           }
@@ -425,7 +421,7 @@ body {
 
         &__btn-next {
           #counter {
-            width: 440px;
+            width: 343px;
             padding: 20px 40px;
             justify-content: center;
             align-items: center;
