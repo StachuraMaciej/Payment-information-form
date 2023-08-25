@@ -602,11 +602,12 @@ body {
   }
   .home-page__payment-section .home-page__payment-section__logo-Tablet {
     display: block;
+    align-items: center;
     margin: 0;
   }
   .home-page__payment-section .home-page__payment-section__logo-Tablet img {
-    width: 375px;
-    height: 375px;
+    width: 100%;
+    height: auto;
   }
   .home-page__payment-section .home-page__payment-section__title {
     font-family: Montserrat;
@@ -620,8 +621,8 @@ body {
   }
   .home-page__payment-section .home-page__payment-section__data {
     margin: 32px 16px 40px 16px;
-    height: 284px;
-    width: 440px;
+    height: 298px;
+    width: 344px;
   }
   .home-page__payment-section .home-page__payment-section__data__form-group {
     display: block;
@@ -701,6 +702,7 @@ body {
   .home-page__payment-section .home-page__payment-section__data__btn-next #counter {
     width: 343px;
     padding: 20px 40px;
+    margin-bottom: 40px;
     justify-content: center;
     align-items: center;
     gap: 10px;
