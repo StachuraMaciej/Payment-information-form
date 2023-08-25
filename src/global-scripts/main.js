@@ -48,7 +48,7 @@ const isValidCardNum = cardNumber => {
     if (cardNumber <= 15) && (cardNumber >= 15) {
 
     }
-}  https://www.youtube.com/watch?v=CYlNJpltjMM 8:31  */
+}*/
 
 // Deleted empty space in value
 const validateInputs = () => {
